@@ -48,13 +48,23 @@ void main () {
   }
 
   for (int i = 1; i <= 10; i++) {
-    print(i);
+    // print(i);
   }
 
   int j = 1;
   while (j <= 10) {
-    print(j);
+    // print(j);
     j++;
   }
+
+
+List numbers = [1,2,3,4,5];
+var num = numbers.map((number) => number * 2).toList();
+print(num);
+
+//find even numbers
+var even = numbers.where((number) => number % 2 == 0).toList();
+print(even);
+
 
 }
