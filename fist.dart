@@ -67,4 +67,15 @@ var even = numbers.where((number) => number % 2 == 0).toList();
 print(even);
 
 
+
+//functions
+
+// multipy num by 2
+
+int multiplyBy2(int? num=3) {
+  return num * 2;
+}
+
+print(multiplyBy2(10));
+
 }
